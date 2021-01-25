@@ -1,0 +1,108 @@
+/*
+.pad15{
+  width:110px;
+  height: 200px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.imgwrp{
+  height: 162px;
+}
+.item{
+  width: 110px !important;
+  margin: 8px;
+}
+.jdl{
+  font-size: 10pt;
+  width: 90px;
+  margin: 0 auto;
+}
+.btnbuy{
+  border: none;
+  width: 100%;
+}
+ */
+/*
+ .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+.MultiCarousel{ Height: 189px;}
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+
+
+
+.pad16{
+  width: 270px;
+  margin: 0 !important;
+  padding: 0 !important;
+
+    border-radius: 15px;
+    height: 150px;
+    background-size: cover  !important;
+    background-position: center !important;
+
+}
+.item{
+  width: 290px !important;
+
+}
+.imgcarou{
+  border-radius: 15px;
+}
+
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 150px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 10px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.pad16{
+  width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 10px;
+    height: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    top: -200px;
+  }
+.flickity-prev-next-button{
+    border-radius: 25% !important;
+    background-color: rgba(255,255,255,0.2) !important;
+    box-shadow:0px 0px 15px rgb(0  ,0  ,0 ) !important;
+  }
+.flickity-button-icon{
+  color: white;
+
+}
